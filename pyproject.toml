@@ -1,0 +1,12 @@
+[project]
+name = "assignment-7"
+version = "0.1.0"
+description = "Reproducible DVC pipeline and Marimo report for DSC 190 Assignment 7"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dvc>=3.67.1",
+    "marimo>=0.25.2",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+]
